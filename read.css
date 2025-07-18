@@ -1,0 +1,49 @@
+.claim{
+	background-color:black;
+	position: absolute;
+	top:35%;
+	left:40%;
+	padding-top:10px;
+	padding-bottom:10px;
+	border: 3px solid #f9910d;
+	border-top:none;
+	border-bottom:none;	
+	border-right:none;			
+	border-radius: 5px;
+	padding: 20px;
+}
+.cla{
+	position:relative;
+	top:-35px;
+}
+.cla  p {
+	color:#f9910d;
+		position: relative;
+	top: -20px;
+	}
+.cla  h4{
+	color:#f9910d;
+
+}
+.con p{
+	color: #fff;
+
+}
+.con{
+	position:absolute;
+	top:35px;
+}
+.claim button{
+width:40%;
+position: relative;
+top:5px;
+left: 25%;
+color: black;
+font-weight:bold;
+border:none;
+background-color:#f9910d;
+}
+.claim button:hover{
+	cursor:pointer;
+}
+

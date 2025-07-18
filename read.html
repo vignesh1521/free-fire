@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+	<title>Free Fire</title>
+	<link rel="stylesheet" type="text/css" href="ff.css">
+	<link rel="icon"  href="copy_right.jpg">
+	<script type="text/javascript" src="java.js">
+	</script>
+	<link rel="stylesheet" type="text/css" href="read.css">
+</head>
+<body>
+	<div class="ff_top">
+    <img class="ff_top1" src="ff_top.png">
+    <img class="ff_top2"src="ff_top.png">
+    <img class="ff_top3"src="ff_top.png">
+  </div>
+
+<div class="ff_ff">
+  <img src="ff_ff.png">
+</div>
+<div class="notice_head">
+  <div class="notice_body">
+    <h1>Rewards Redemption Site</h1>
+<p>Redeem Your Code</p>
+  </div>
+  <div class="enter">
+  <form  name="red" id="code0" onsubmit="return co()" method="POST">
+
+    <input type="text" name="code1">
+    <span class="dash">-</span>
+    <input type="text" name="code2">
+    <span class="dash">-</span>
+    <input type="text" name="code3">
+  <br>
+    <input type="submit" name="onsub" value="confirm" id="sub">
+  </form>
+
+<div class="log_out">
+  <div class="log">
+  <P>Hello,Loading...<br>(Region:IND)</P>
+  <button onclick="return index()">Log Out</button>
+</div></div></div>
+  <div class="list1">
+  <p>Important Notice:</p>
+  <ol>
+  <li>Redemption code has <a style="color: red;">12</a> characters, consisting of capital letters and numbers.</li>
+  <li>Item rewards are shown in <a style="color:red">[vault]</a> tab in game lobby; Golds or diamonds will add in account wallet automatically.</li>
+  <li>Please note redemption expiration date. Any expired codes cannot be redeemed.</li>
+  <li>Please contact customer service if you encountered any issue.</li>
+<li>Reminder: you will not be able to redeem your rewards with guest accounts. You may bind your account to Facebook or VK in order to receive the rewards.</li>
+  </ol>
+</div>
+</div>
+<div class="rights">
+  <div class="rights1">
+<img src="copy_right.jpg">
+  <p>Trade Mark belongs To Their Respective Owners <br>
+  All Rights Doesn't Reserved</p></div>
+</div>
+<div class="claim" id="claim" style="display:none;">
+  <div class="cla">
+  <h4>CONGRATULATIONS!</h4>
+  <p>Successfully Redeemed</p>
+  </div>
+  <div class="con">
+  <P> Obtained<br>[HIP HOP BUNDLE <br> REDEEMED FOR 7D]
+    <P>
+
+  </div>
+  <button onclick=" return clos()">Ok</button>
+</div>
+
+<div class="claim1" id="claim1" style="display:none;">
+  <div class="cla1">
+  <h4>ERROR!</h4>
+  <p>Please Enter The Corrcet Code</p>
+  </div>
+  <div class="con1">
+  <P> THE CODE YOU ENTERED WAS INCORRECT OR EXPIRED
+    <P>
+
+  </div>
+  <button onclick=" return clos()">Ok</button>
+</div>
+
+<style type="text/css">
+  .enter{
+    position: relative;
+   left:0px;
+
+  }
+@media screen and  (max-width: 550px){
+.enter{
+    position: relative;
+left:10%;
+}
+    }
+  @media screen and  (max-width: 550px)
+  {
+    .log p{
+      color: white;
+    }
+  .log_out{
+    position:absolute;
+        right:14%;
+  }
+  }
+  @media screen and  (max-width: 550px){
+   .claim{
+    position: absolute;
+    left:28%;
+    
+  } }
+  
+    @media screen and  (max-width: 350px){
+   .claim{
+    position: absolute;
+    left:20%;
+    
+  }
+
+   }
+    .claim1{
+  background-color:black;
+  position: absolute;
+  top:35%;
+  left:40%;
+  padding-top:10px;
+  padding-bottom:10px;
+  border: 3px solid #f9910d;
+  border-top:none;
+  border-bottom:none; 
+  border-right:none;      
+  border-radius: 5px;
+  padding: 20px;
+}
+.cla1{
+  position:relative;
+  top:-35px;
+}
+.cla1  p {
+  color:#f9910d;
+    position: relative;
+  top: -20px;
+  }
+.cla1  h4{
+  color:#f9910d;
+
+}
+.con1 p{
+  color: #fff;
+
+}
+.con1{
+  position:absolute;
+  top:35px;
+}
+.claim1 button{
+width:40%;
+position: relative;
+top:5px;
+left: 25%;
+color: black;
+font-weight:bold;
+border:none;
+background-color:#f9910d;
+}
+.claim1 button:hover{
+  cursor:pointer;
+}
+@media screen and (max-width: 550px){
+  
+       .claim1{
+    position: absolute;
+    left:25%;
+     
+  
+  }
+}
+@media screen and (max-width: 350px){
+  
+       .claim1{
+    position: absolute;
+    left:15%;
+     
+  
+  }
+}
+
+</style>
+</body>
+</html>
